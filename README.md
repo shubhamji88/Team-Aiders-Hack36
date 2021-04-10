@@ -1,4 +1,9 @@
-# IoT Enabled Low Cost SPO2 and Heart Rate Monitoring System For Quarantine Covid19 Patients
+<h1 align="center">IoT Enabled Low Cost SPO2 and Heart Rate Monitoring System For Quarantine Covid19 Patients</h1>
+<p align="center">
+</p>
+
+<a href="https://hack36.com"> <img src="http://bit.ly/BuiltAtHack36" height=20px> </a>
+
 
 ## Introduction
 
@@ -47,3 +52,14 @@
 * It can be game changer solution in COVID19 monitoring, which is mainly focuses in SPO2 monitoring.
 
 * Prototype can be commercialised to make cost effective solution for Heart Rate/SPO2 monitoring in home without any complex setup.
+
+Team Name: OP Squad
+
+* [Khushi Singh](https://github.com/descifrado)
+* [Arsh Singh](https://github.com/iosdev474)
+* [Shashwat Pandey](https://github.com/shashwat1998)
+* [Shaurya Chandra](https://github.com/shaurya0406)
+
+
+### Made at:
+<a href="https://hack36.com"> <img src="http://bit.ly/BuiltAtHack36" height=20px> </a>
