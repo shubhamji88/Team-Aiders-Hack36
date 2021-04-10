@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1009768437608",
+    "project_id": "healthmonitor-cc0a9",
+    "storage_bucket": "healthmonitor-cc0a9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1009768437608:android:ab70f4e2322ed47d4928dd",
+        "android_client_info": {
+          "package_name": "com.example.healthmonitor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1009768437608-f2ni8o980183j2obp43kv8cpfvuurdu6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.healthmonitor",
+            "certificate_hash": "2f0a8b0773b694d95df2c4c24d17e2a1591a20f7"
+          }
+        },
+        {
+          "client_id": "1009768437608-0kuobjuth9tjcufs7am9nivjk69tln0s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAgu3YMMHy2rL1K17wEs-XKcf3jhvNZzsA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1009768437608-0kuobjuth9tjcufs7am9nivjk69tln0s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
