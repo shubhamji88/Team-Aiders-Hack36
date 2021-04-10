@@ -47,7 +47,7 @@
 * We were using Scenform SDK with AR core to implement AR for Yoga in our app. As SceneForm has been depreciated and it was very hard to work with it as most of the tutorials on the net were based on and have used Sceneform PlugIn which is no longer supported by Android Studio.
 So after going through a lot of articles we found this piece of code.
 
-'''code
+'''python
 sceneform.asset('sampledata/meditationladywireframe.gltf',
         'default',
         'sampledata/meditationladywireframe.sfa',
