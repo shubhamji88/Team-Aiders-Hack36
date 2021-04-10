@@ -1,0 +1,93 @@
+plugins {
+    id 'com.android.application'
+    id 'kotlin-android'
+    id 'com.google.gms.google-services'
+    id 'com.google.ar.sceneform.plugin'
+    id 'kotlin-kapt'
+    id 'kotlin-android-extensions'
+}
+sceneform.asset('sampledata/meditationladywireframe.gltf',
+        'default',
+        'sampledata/meditationladywireframe.sfa',
+        'src/main/assets/model'
+)
+
+android {
+    compileSdkVersion 30
+    buildToolsVersion "30.0.3"
+    dataBinding {
+        enabled = true
+    }
+    defaultConfig {
+        applicationId "com.example.healthmonitor"
+        minSdkVersion 24
+        targetSdkVersion 30
+        versionCode 1
+        versionName "1.0"
+        multiDexEnabled true
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+}
+
+dependencies {
+
+    implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+    implementation 'androidx.core:core-ktx:1.3.2'
+    implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation 'com.google.android.material:material:1.3.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
+    implementation 'com.google.android.gms:play-services-auth:19.0.0'
+    implementation 'com.google.firebase:firebase-auth:20.0.3'
+    implementation 'androidx.lifecycle:lifecycle-extensions:2.2.0'
+    implementation 'androidx.navigation:navigation-fragment-ktx:2.3.5'
+    implementation 'androidx.navigation:navigation-ui-ktx:2.3.5'
+    testImplementation 'junit:junit:4.+'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.2'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+    implementation platform('com.google.firebase:firebase-bom:26.8.0')
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-play-services:1.3.5-native-mt'
+    implementation "com.jakewharton.retrofit:retrofit2-kotlin-coroutines-adapter:0.9.2"
+    implementation 'com.google.firebase:firebase-auth-ktx'
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-core:1.4.1'
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.4.1'
+    implementation 'com.etebarian:meow-bottom-navigation:1.0.4'
+    implementation 'pl.droidsonroids.gif:android-gif-drawable:1.2.17'
+    //glide
+    implementation "com.github.bumptech.glide:glide:4.11.0"
+    //onBoading
+    implementation 'com.ramotion.paperonboarding:paper-onboarding:1.1.3'
+    //location
+    implementation 'com.google.android.gms:play-services-location:18.0.0'
+    //retrofit
+    implementation "com.squareup.retrofit2:converter-moshi:$version_retrofit"
+    implementation "com.squareup.retrofit2:converter-gson:2.9.0"
+    implementation "com.jakewharton.retrofit:retrofit2-kotlin-coroutines-adapter:$version_retrofit_coroutines_adapter"
+    implementation 'com.squareup.okhttp3:logging-interceptor:4.9.0'
+
+    //AR
+    // Provides ArFragment, and other UX resources.
+    implementation 'com.google.ar.sceneform.ux:sceneform-ux:1.15.0'
+
+    // Alternatively, use ArSceneView without the UX dependency.
+    implementation "com.google.ar.sceneform:core:1.15.0"
+    implementation "com.google.ar.sceneform:animation:1.15.0"
+
+    implementation 'com.google.ar.sceneform.ux:sceneform-ux:1.15.0'
+    implementation 'com.google.ar.sceneform:assets:1.15.0'
+    //gauge
+    implementation 'com.github.Gruzer:simple-gauge-android:0.3.1'
+}
