@@ -26,9 +26,6 @@
 **Monitoring patient’s health remotely by collecting patient’s data continuously can help preventive care and doctors can also diagnose acute complications earlier with Internet of things this can be done by employing sensors to collect patients physiological information send them to the cloud to analyze and store the information and forward the analysis to caregivers**
 
 
-
-
-
 ![System Architecture](https://github.com/shaurya0406/Team-Aiders-Hack36/blob/main/Data/System-Architecture.png)
 
 ## Working Principle
@@ -57,7 +54,7 @@ Team Name: OP Squad
 
 * [Khushi Singh](https://github.com/khushisinghvit)
 * [Shubham Shankaram](https://github.com/shubhamji88)
-* [Yati Rastogi]()
+* [Yati Rastogi](https://github.com/yatirastogi)
 * [Shaurya Chandra](https://github.com/shaurya0406)
 
 
