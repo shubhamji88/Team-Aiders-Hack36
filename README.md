@@ -62,7 +62,7 @@ sceneform.asset('sampledata/meditationladywireframe.gltf',
 
 ![Android App](https://github.com/shaurya0406/Team-Aiders-Hack36/blob/main/Data/UI.jpg)
 
-![UI Elements](https://github.com/shaurya0406/Team-Aiders-Hack36/blob/main/Data/UI.jpg)
+![UI Elements](https://github.com/shaurya0406/Team-Aiders-Hack36/blob/main/Data/UI%20Elements.png)
 
 Our app enables **real-time monitoring** of patients health parameters like **Heart-Rate** and **Spo2** and along with it also displays Graphs based on data history for easy analysis.
 
