@@ -47,12 +47,12 @@
 * We were using Scenform SDK with AR core to implement AR for Yoga in our app. As SceneForm has been depreciated and it was very hard to work with it as most of the tutorials on the net were based on and have used Sceneform PlugIn which is no longer supported by Android Studio.
 So after going through a lot of articles we found this piece of code.
 
-'''python
+
 sceneform.asset('sampledata/meditationladywireframe.gltf',
         'default',
         'sampledata/meditationladywireframe.sfa',
         'src/main/assets/model'
-)'''
+)
 
 * Initially we were getting very vague and completely off-the chart values for Spo2 from the sensor. After going through various documentation and the manufacturer's Datasheet, we got to know that an internal temperature sensor has to be used to calliberate the Spo2 sub-systems and this tesolved our issue.
 
