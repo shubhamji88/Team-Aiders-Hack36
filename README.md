@@ -52,8 +52,8 @@ sceneform.asset('sampledata/meditationladywireframe.gltf',
         'default',
         'sampledata/meditationladywireframe.sfa',
         'src/main/assets/model'
-)
-'''
+)'''
+
 * Initially we were getting very vague and completely off-the chart values for Spo2 from the sensor. After going through various documentation and the manufacturer's Datasheet, we got to know that an internal temperature sensor has to be used to calliberate the Spo2 sub-systems and this tesolved our issue.
 
 * To make our device Fault-Tolerant, we have implemented Priority based requests from the ThingSpeak Cloud. So the Caregivers can be assigned priority levels and this will help us to manage multiple requests at the same time.
