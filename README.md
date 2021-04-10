@@ -55,9 +55,9 @@
 
 Team Name: OP Squad
 
-* [Khushi Singh](https://github.com/descifrado)
-* [Arsh Singh](https://github.com/iosdev474)
-* [Shashwat Pandey](https://github.com/shashwat1998)
+* [Khushi Singh](https://github.com/khushisinghvit)
+* [Shubham Shankaram](https://github.com/shubhamji88)
+* [Yati Rastogi]()
 * [Shaurya Chandra](https://github.com/shaurya0406)
 
 
