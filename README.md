@@ -24,7 +24,7 @@
 
 
 
-![System Architecture]()
+![System Architecture](https://github.com/shaurya0406/Team-Aiders-Hack36/blob/main/Data/System-Architecture.png)
 
 ## Working Principle
 
