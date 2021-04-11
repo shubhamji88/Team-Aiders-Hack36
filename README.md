@@ -4,8 +4,8 @@
 
 <a href="https://hack36.com"> <img src="http://bit.ly/BuiltAtHack36" height=20px> </a>
 
-![Demo Video](https://youtu.be/Fxhme5nqLTA)
-![Presentation ](https://docs.google.com/presentation/d/1tdAvPK-dhDEVtQhLQQsuP0pV33FhE2qE35_r8JYEVwc/edit?usp=sharing)
+## [Demo Video](https://youtu.be/Fxhme5nqLTA)
+## [Presentation ](https://docs.google.com/presentation/d/1tdAvPK-dhDEVtQhLQQsuP0pV33FhE2qE35_r8JYEVwc/edit?usp=sharing)
 ## Introduction
 
 - Home/Institutional quarantine Covid19 patients face many problems regarding their critical health parameter monitoring due to very contagious nature of virus and misses timely assistance in case of emergency. 
