@@ -4,8 +4,8 @@
 
 <a href="https://hack36.com"> <img src="http://bit.ly/BuiltAtHack36" height=20px> </a>
 
-**Video : https://youtu.be/QZcqsAUNUtk**
-
+## [Demo Video](https://youtu.be/Fxhme5nqLTA)
+## [Presentation ](https://docs.google.com/presentation/d/1tdAvPK-dhDEVtQhLQQsuP0pV33FhE2qE35_r8JYEVwc/edit?usp=sharing)
 ## Introduction
 
 - Home/Institutional quarantine Covid19 patients face many problems regarding their critical health parameter monitoring due to very contagious nature of virus and misses timely assistance in case of emergency. 
@@ -43,11 +43,49 @@
 
 **This sensor is usually placed on the fingers or ears or on the skin which is not too thick so that both the light frequency can easily penetrate the tissues. After that the absorption of the red and infrared light is measured by photodiode and the amount will depend on the amount of oxygen in the blood. Oxygen rich haemoglobin ( Oxyhemoglobin) absorbs more infrared light while those without oxygen (Deoxyhemoglobin) absorb red light.**
 
+## Challenges Faced
+
+* We were using Scenform SDK with AR core to implement AR for Yoga in our app. As SceneForm has been depreciated and it was very hard to work with it as most of the tutorials on the net were based on and have used Sceneform PlugIn which is no longer supported by Android Studio.
+So after going through a lot of articles we found this piece of code.
+
+
+sceneform.asset('sampledata/meditationladywireframe.gltf',
+        'default',
+        'sampledata/meditationladywireframe.sfa',
+        'src/main/assets/model'
+)
+
+* Initially we were getting very vague and completely off-the chart values for Spo2 from the sensor. After going through various documentation and the manufacturer's Datasheet, we got to know that an internal temperature sensor has to be used to calliberate the Spo2 sub-systems and this tesolved our issue.
+
+* To make our device Fault-Tolerant, we have implemented Priority based requests from the ThingSpeak Cloud. So the Caregivers can be assigned priority levels and this will help us to manage multiple requests at the same time.
+
+## Android App
+
+![Android App](https://user-images.githubusercontent.com/56815364/119227774-37431e00-bb2d-11eb-9d72-a1d8693c0e39.jpeg)
+
+
+![Augmented reality](https://user-images.githubusercontent.com/56815364/119227775-38744b00-bb2d-11eb-8c6c-99a0fc893f09.jpeg)
+
+
+![UI Elements](https://github.com/shaurya0406/Team-Aiders-Hack36/blob/main/Data/UI%20Elements.png)
+
+Our app enables **real-time monitoring** of patients health parameters like **Heart-Rate** and **Spo2** and along with it also displays Graphs based on data history for easy analysis.
+
+All the data can be sent to the doctor with a single click of a button or automatically based on user's preference.
+
+Covid-patients not only suffer from this dangerous disease but also suffer from mental depression, loneliness and physical inactivity.
+To keep the patients entertained we have entertainement tab which will redirect the users to their desired streaming service.
+To prevent the patients from stressing their eyes and worsening their health by watching on a small screen of mobile device, we give an alert to the user after 20 minutes of watch time to return back to the app where they will be presented with AR models of various Yoga exercises. 
+This way the patients can also take care of their physical health.
+
+The implementation of AR will help the patients to visualize the postures properly and exercise will become a fun activity for them.
+
+
 ## Future Enhancements
 
 * Developed prototype delivered acceptable accuracy with medical devices.
 
-* It can be game changer solution in COVID19 monitoring, which is mainly focuses in SPO2 monitoring.
+* It can be game changer solution in COVID19 monitoring, which mainly focuses in SPO2 monitoring.
 
 * Prototype can be commercialised to make cost effective solution for Heart Rate/SPO2 monitoring in home without any complex setup.
 
