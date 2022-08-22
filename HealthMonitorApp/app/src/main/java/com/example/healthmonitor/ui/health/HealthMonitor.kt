@@ -48,7 +48,7 @@ class HealthMonitor : AppCompatActivity() {
         webview.isSoundEffectsEnabled = true
         webview.settings.layoutAlgorithm = WebSettings.LayoutAlgorithm.TEXT_AUTOSIZING
         webview.settings.useWideViewPort = true
-        webview.loadUrl("https://thingspeak.com/channels/1588541/charts/2?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15")
+        webview.loadUrl("https://thingspeak.com/channels/1834270/charts/1?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15")
     }
     private fun setUpHeart(webview: WebView){
         true.also { webview.settings.javaScriptEnabled = it }
