@@ -8,8 +8,8 @@ data class Feed(
     val createdAt: String?,
     @SerializedName("entry_id")
     val entryId: Int?,
-    @SerializedName("field1")
-    val field1: String?,
     @SerializedName("field2")
+    val field1: String?,
+    @SerializedName("field3")
     val field2: String?
 )

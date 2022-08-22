@@ -10,7 +10,7 @@ import retrofit2.converter.gson.GsonConverterFactory
 import retrofit2.http.GET
 
 private val BASE_URL="https://api.thingspeak.com"
-private const val ApiKey="G471ANJA8F7RM35A"
+private const val ApiKey="7K1TBBB0GT5ISOAN"
 private val okHttpLogger=HttpLoggingInterceptor().setLevel(HttpLoggingInterceptor.Level.BODY)
 private val okHttp=OkHttpClient.Builder().addInterceptor(okHttpLogger).build()
 
@@ -21,7 +21,7 @@ private val retrofit=Retrofit.Builder()
     .client(okHttp)
     .build()
 interface ApiService{
-    @GET("/channels/1354140/feeds.json?api_key==$ApiKey&results=1")
+    @GET("/channels/1588541/feeds.json?api_key=$ApiKey&results=1")
     fun getData(): Deferred<ResponseData>
 }
 object Api{

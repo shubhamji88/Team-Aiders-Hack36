@@ -1,8 +1,11 @@
 package com.example.healthmonitor.ui.splash
 
+import android.content.Context
 import android.content.Intent
+import android.content.SharedPreferences
 import android.graphics.Color
 import android.os.Bundle
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.graphics.toColorInt
 import androidx.fragment.app.FragmentTransaction
@@ -13,19 +16,27 @@ import com.ramotion.paperonboarding.PaperOnboardingPage
 
 
 class StarterActivity : AppCompatActivity() {
+    private var sharedPref:SharedPreferences? = null
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_starter)
         supportActionBar?.hide()
-        createOnBoarding()
+        sharedPref  = getPreferences(Context.MODE_PRIVATE) ?: null
+        if(sharedPref!=null && !sharedPref!!.getBoolean("first",false)) {
+            createOnBoarding()
+        }
+        else{
+            startActivity(Intent(this, SignInActivity::class.java))
+            this.finish()
+        }
     }
 
 
     private fun createOnBoarding() {
         val scr1 = PaperOnboardingPage(
             "Welcome to HealthMonitor",
-            "Need a partner to workout with?\n" +
-                    "We'll make your yoga sessions interesting with our special AR feature",
+            "Only solution you need\n" +
+                    "Track your health 24x7",
             Color.parseColor("#e5d400"),
             R.drawable.mind,
             R.drawable.ic_baseline_keyboard_arrow_right_24
@@ -37,18 +48,10 @@ class StarterActivity : AppCompatActivity() {
             R.drawable.doctor_splash,
             R.drawable.ic_baseline_keyboard_arrow_right_24
         )
-        val scr3 = PaperOnboardingPage(
-            "Watch your favourite shows",
-            "We won't let your watching turn to binging with our time out feature",
-            Color.parseColor("#F7F7F7"),
-            R.drawable.tv,
-            R.drawable.ic_baseline_keyboard_arrow_right_24
-        )
 
         val elements: ArrayList<PaperOnboardingPage> = ArrayList()
         elements.add(scr1)
         elements.add(scr2)
-        elements.add(scr3)
         val onBoardingFragment = PaperOnboardingFragment.newInstance(elements)
 
 
@@ -60,5 +63,9 @@ class StarterActivity : AppCompatActivity() {
         val fragmentTransaction = supportFragmentManager.beginTransaction()
         fragmentTransaction.add(R.id.fragment_container, onBoardingFragment)
         fragmentTransaction.commit()
+        with(sharedPref!!.edit()) {
+            putBoolean("first", true)
+            apply()
+        }
     }
 }

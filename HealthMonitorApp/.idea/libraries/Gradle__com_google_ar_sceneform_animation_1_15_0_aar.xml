@@ -4,6 +4,16 @@
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e5821c5b619489e482079f28a5a3ccee/jetified-animation-1.15.0/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e5821c5b619489e482079f28a5a3ccee/jetified-animation-1.15.0/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e5821c5b619489e482079f28a5a3ccee/jetified-animation-1.15.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/545fd69a4630549aa4447b62bb72f25c/jetified-animation-1.15.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/a5c15c46ec39b5d491a9af1b639a86af/transformed/jetified-animation-1.15.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/a5c15c46ec39b5d491a9af1b639a86af/transformed/jetified-animation-1.15.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/a5c15c46ec39b5d491a9af1b639a86af/transformed/jetified-animation-1.15.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/0a9f7ba1e2f76e93d90d8b2b2bb90b5e/transformed/jetified-animation-1.15.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/0a9f7ba1e2f76e93d90d8b2b2bb90b5e/transformed/jetified-animation-1.15.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/0a9f7ba1e2f76e93d90d8b2b2bb90b5e/transformed/jetified-animation-1.15.0/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/3416d6884a8428b810691279ad07e5a5/transformed/jetified-animation-1.15.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/3416d6884a8428b810691279ad07e5a5/transformed/jetified-animation-1.15.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/3416d6884a8428b810691279ad07e5a5/transformed/jetified-animation-1.15.0/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

@@ -70,6 +70,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:mbn_countBackgroundColor="#ff6f00"
         app:mbn_countTextColor="#000"
+        android:visibility="gone"
         app:mbn_defaultIconColor="#909090"
         app:mbn_rippleColor="#6200EE"
         app:mbn_selectedIconColor="#6200EE"

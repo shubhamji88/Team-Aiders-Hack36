@@ -4,6 +4,7 @@ package com.example.healthmonitor.ui.signIn
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import android.widget.Button
 import android.widget.ImageView
 import android.widget.Toast
@@ -75,7 +76,7 @@ class SignInActivity : AppCompatActivity() {
                 completedTask.getResult(ApiException::class.java)!!
           firebaseAuthWithGoogle(account.idToken!!)
         } catch (e: ApiException) {
-
+            Log.d("Auth error: ",e.toString())
         }
     }
 

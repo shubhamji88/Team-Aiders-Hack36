@@ -4,6 +4,16 @@
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/cdb45cbedd244236c8b544c007cda818/jetified-sceneform-base-1.15.0/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/cdb45cbedd244236c8b544c007cda818/jetified-sceneform-base-1.15.0/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/cdb45cbedd244236c8b544c007cda818/jetified-sceneform-base-1.15.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/721ea7b7afc666df45835fee34f5c6ea/jetified-sceneform-base-1.15.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/834d446fe89e801f92bed000b2d894d9/transformed/jetified-sceneform-base-1.15.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/834d446fe89e801f92bed000b2d894d9/transformed/jetified-sceneform-base-1.15.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/834d446fe89e801f92bed000b2d894d9/transformed/jetified-sceneform-base-1.15.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/89ebcefe78f033984f4fe4a445181586/transformed/jetified-sceneform-base-1.15.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/89ebcefe78f033984f4fe4a445181586/transformed/jetified-sceneform-base-1.15.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/89ebcefe78f033984f4fe4a445181586/transformed/jetified-sceneform-base-1.15.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/93452430b1768667df8df12e01bf7754/transformed/jetified-sceneform-base-1.15.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/93452430b1768667df8df12e01bf7754/transformed/jetified-sceneform-base-1.15.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/93452430b1768667df8df12e01bf7754/transformed/jetified-sceneform-base-1.15.0/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

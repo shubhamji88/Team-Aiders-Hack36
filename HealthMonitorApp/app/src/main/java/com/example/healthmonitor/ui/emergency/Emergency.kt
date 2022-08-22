@@ -29,7 +29,6 @@ class Emergency : AppCompatActivity() {
         if(!enableMyLocation())
             Toast.makeText(this, "Location Permission not Granted!!", Toast.LENGTH_SHORT).show()
 
-//
         }
     private fun isPermissionGranted() : Boolean {
         return ContextCompat.checkSelfPermission(
